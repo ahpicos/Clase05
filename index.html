@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ccs/index.css">
+    <title>Clase05</title>
+    <!-- Dar estilos dentro de HTML con la etiqueta <Style> de forma embebida en la misma pagina  -->
+    <style>
+        p{
+            color:blue;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="centrar">Etqueta Semantica - header</h2>
+        <ul class="centrar">
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li>
+                <a href="./pages/sucursales.html">SUCURSALES</a>
+            </li>
+            <li>
+                <a href="./pages/productos.html">PRODUCTOS</a>
+            </li>
+        </ul>
+    </header>
+    <nav>
+        <h2 class="soloYo">Etiqueta Semantica - nav</h2>
+    </nav>
+    <main>
+        <!-- Otra forma de aplicar CSS es ingresar etiqueta Style dentro de la etiqueta, esta manera de llama "Inline"-->
+        <h1 style="color:rgb(10, 10, 9); background-color:yellow";>
+            Etiqueta de Titulo Nivel 1
+        </h1>
+        <hr>
+        <section>
+            <article>
+                <h3>Los Alimentos</h3>
+                <img src="https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/7a/627a6c8ca944e.jpeg" alt="Alimentos saludables">
+                <p id="miParrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+            </article>
+            <article class="soloYo">
+                <h3>Los Alimentos</h3>
+                <img src="https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/7a/627a6c8ca944e.jpeg" alt="Alimentos saludables">
+                <p class="centrar otroParrafo miColor">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, <strong><i><a href="./pages/productos.html#miFormulario">Formulario</a></i></strong> adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+            </article>
+            <article>
+                <h3>Los Alimentos</h3>
+                <img src="https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/7a/627a6c8ca944e.jpeg" alt="Alimentos saludables">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <article>
+                <h3>Los Alimentos</h3>
+                <img src="https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/7a/627a6c8ca944e.jpeg" alt="Alimentos saludables">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+            </article>
+            <article>
+                <h3>Los Alimentos</h3>
+                <img src="https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/7a/627a6c8ca944e.jpeg" alt="Alimentos saludables">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, <strong><i><a href="#soyMain">Soy el Main</a></i></strong> adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+            </article>
+            <article>
+                <h3>Los Alimentos</h3>
+                <img src="https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/7a/627a6c8ca944e.jpeg" alt="Alimentos saludables">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, debitis! Minus neque ex accusantium architecto nihil delectus aliquam error rem dolor laudantium, harum voluptate iusto optio ducimus nesciunt numquam repellat!</p>
+            </article>
+        </section>
+        <hr>
+        <h2 id="soyMain">Soy el Main</h2>
+        <ol>
+            <li>
+                PERAS
+            </li>
+            <li>
+                BANANAS
+            </li>
+            <li>
+                NARANJAS
+            </li>
+        </ol>
+    </main>
+    <footer>
+        <h2 class="centrar">Etiqueta Semantica - Footer "Soy el pie de Página"</h2>
+
+    </footer>
+</body>
+</html>
