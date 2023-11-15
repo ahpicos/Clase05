@@ -3,6 +3,14 @@ propiedad: valor;
 propiedad: valor;
 }
 */
+/* Importamos la etiqueta con el tipo de Font desde desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+p{
+    color:blue;
+    font-family: 'Kenia', sans-serif;
+}
+
 
 h2{/* Selector Global */
     color: red;
